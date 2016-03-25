@@ -1,9 +1,9 @@
 FROM debian:jessie
 
-MAINTAINER Micah Hausler, micah.hausler@ambition.com
+MAINTAINER Najeeb Saud <nsaud@us.ibm.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV GRAYLOG_VERSION 1.3.3
+ENV GRAYLOG_VERSION 2.0.0-beta.1
 
 ENV JAVA_HOME /opt/graylog/embedded/jre
 

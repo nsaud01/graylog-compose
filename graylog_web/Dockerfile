@@ -5,7 +5,8 @@ MAINTAINER Micah Hausler, micah.hausler@ambition.com
 ENV DEBIAN_FRONTEND noninteractive
 ENV GRAYLOGWEB_VERSION 2.0.0-beta.1
 
-RUN apt-get update && \
+RUN add-apt-repository ppa:openjdk-r/ppa
+    apt-get update && \
     apt-get -y install \
     curl \
     dnsutils \

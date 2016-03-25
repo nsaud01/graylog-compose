@@ -19,7 +19,7 @@ RUN apt-get update && \
     man \
     net-tools \
     ntp \
-    openjdk-7-jdk \
+    openjdk-8-jdk \
     pwgen \
     tzdata \
     unzip \

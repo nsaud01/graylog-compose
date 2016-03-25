@@ -3,7 +3,7 @@ FROM debian:jessie
 MAINTAINER Micah Hausler, micah.hausler@ambition.com
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV GRAYLOGWEB_VERSION 1.3.3
+ENV GRAYLOGWEB_VERSION 2.0.0-beta.1
 
 RUN apt-get update && \
     apt-get -y install \
@@ -16,7 +16,7 @@ RUN apt-get update && \
     man \
     net-tools \
     ntp \
-    openjdk-7-jdk \
+    openjdk-8-jdk \
     pwgen \
     tzdata \
     unzip \
